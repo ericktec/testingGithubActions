@@ -3,7 +3,6 @@ import Tab from '../components/Tab';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { a11yDark, a11yLight } from "react-syntax-highlighter/dist/cjs/styles/hljs";
 import { useState } from 'react';
-import Image from 'next/image';
 
 const Index = () => {
 
