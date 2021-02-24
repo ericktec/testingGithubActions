@@ -77,7 +77,7 @@ const Index = () => {
                     </SyntaxHighlighter>
                 </Tab>
             </Tabs>
-            <Image width="50%" height="30%" src="/mercedez.jpg" />
+            <img width="50%" height="30%" src="/mercedez.jpg" />
         </>
     )
 
