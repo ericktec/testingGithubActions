@@ -19,23 +19,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-<<<<<<< HEAD
       - name: Install and Build
         run: |
           npm install
           npm run build
           npm run export
-=======
-          
-      - run: npm install
-      - run: npm run build
-       
-      - run: npm run export
-        env:
-          NEXT_PUBLIC_BASE_PATH: /testingGithubActions
-      - run: touch /out/.nojekyll
-        
->>>>>>> 8097dea2be23b308743236e88a1dbd43a58be19b
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
