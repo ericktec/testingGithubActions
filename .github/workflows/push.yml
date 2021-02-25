@@ -27,7 +27,7 @@ jobs:
       - run: npm run export
         env:
           NEXT_PUBLIC_BASE_PATH: /testingGithubActions
-      - run: touch ./out/.nojekyll
+      - run: touch /out/.nojekyll
         
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.0.0
