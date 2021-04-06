@@ -15,7 +15,6 @@ const Tab = ({isSelected, children, language}) => {
 Tab.propTypes = {
     children: PropTypes.instanceOf(Array).isRequired,
     isSelected: PropTypes.bool.isRequired,
-    language: PropTypes.string.isRequired
 };
 
 
