@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Tab = ({isSelected, children, language}) => {
+const Tab = ({isSelected, children}) => {
     if(isSelected){
         return (
             <div>
@@ -14,7 +14,7 @@ const Tab = ({isSelected, children, language}) => {
 
 Tab.propTypes = {
     children: PropTypes.instanceOf(Array).isRequired,
-    isSelected: PropTypes.bool.isRequired,
+    isSelected: PropTypes.bool.isRequired
 };
 
 
