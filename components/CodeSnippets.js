@@ -2,6 +2,7 @@ import Tabs from '../components/Tabs';
 import Tab from '../components/Tab';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import Clipboard from 'react-clipboard.js';
+import { Container } from 'react-bootstrap';
 
 const CodeSnippets = (props) => {
 
@@ -21,7 +22,7 @@ const CodeSnippets = (props) => {
 
 
     return (
-        <>
+        <Container>
         <button onClick={toggleTheme}>Change </button>
             <Tabs selected={selected} setSelected={setSelected} labels={labels} >
                 {
@@ -41,7 +42,7 @@ const CodeSnippets = (props) => {
                 }
 
             </Tabs>
-        </>
+        </Container>
     )
 }
 
